@@ -1,0 +1,198 @@
+
+
+body{
+	margin:0;
+	position:satic;
+	min-width:960px;
+	font-family:'Raleway', sans-serif;
+	scroll-behavior: smooth;
+	background-size: auto;
+}
+.space{
+	line-height:150px;
+}
+h2{
+	margin:0;
+	padding:20px;
+}
+
+.list{
+	margin:0 auto;
+	text-align: justify;
+	padding:20px;
+	display:table;
+}
+
+h4{
+	font-weight: 300;
+}
+
+#head{
+	background-image: url("http://thepatternlibrary.com/img/ao.gif");
+	background-size: cover;
+	background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+	height:585px;
+	font-family:'Raleway', sans-serif;
+	font-variant: small-caps;
+	color:white;
+	
+}
+#title{
+	 text-shadow: -1px -1px 0 gray,1px -1px 0 gray,-1px 1px 0 gray,1px 1px 0 gray;
+	 font-size:74px;
+	 line-height: 0;
+	 font-weight: 300;
+}
+#subtitle{
+	font-weight: lighter;
+	text-transform: uppercase;
+	border-top: 1px white solid;
+	border-bottom: 1px white solid;
+	font-size:px;
+	line-height: 0;
+}
+
+h4{
+	font-size:20px;
+}
+p,.header,li{
+	font-family:'Raleway', sans-serif;
+}
+.center{
+	text-align:center;
+}
+#jump{
+	margin-top: 27px;
+	line-height: 10px;
+}
+#links{
+	text-transform:uppercase;
+	font-weight: bold;
+}
+.big{
+	font-family:'Raleway', sans-serif;
+	font-size:74px;
+	font-weight: 300;
+}
+
+#bio{
+	line-height: 15px;
+	background-image: linear-gradient(#625a57,#3a3635);
+	color:#f9eddf;
+	height: 600px;
+	padding-left: 100px;
+}
+#links a{
+	background:grey;
+  border: 7px solid grey;
+  border-radius: 2px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#links a:hover {
+  border: 5px solid grey;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+}
+
+#nav{
+	float:right;
+	text-align: center;
+	line-height: 40px;
+	font-weight:bold;
+	padding:0px;
+	margin-right:20px;
+	margin-top:0;
+	position: sticky;
+	top: 50px;
+}
+
+#nav a{
+	background:grey;
+  border: 7px solid grey;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+	width: 80px;
+}
+
+#nav a:hover{
+  background-color: white;
+	border: 7px solid white;
+  color: gray;
+	width: 80px;
+}
+
+#banner{
+	background-color:black;
+	min-height: 40px;
+	border-top: 3px solid black;
+}
+
+#profile{
+	text-align: justify;
+	margin-left:40px;
+	column-count: 3;
+	column-width: 300px;
+	border:400px;
+	-moz-column-fill: auto;
+  column-fill: auto;
+	min-height: 300px;
+	width:960px;
+	font-size:17px;
+}
+.sub{
+	color: #ebeced;
+}
+
+
+#photo{
+	border: 10px silver solid;
+	border-radius: 70%;
+	overflow: hidden;
+}
+
+#personal{
+	line-height: 25px;
+	font-size: 20px;
+}
+
+#exp{
+	background-color: #3a3635;
+	color:#f9eddf;
+	text-align: center;
+	min-height:700px;
+}
+
+
+#media{
+	background-image: linear-gradient(#3a3635, #625a57);
+	color:#f9eddf;
+	min-height:600px;
+}
+
+#contact{
+	padding-top:25px;
+	height: 600px;
+	background-color:  #625a57;
+	color:#f9eddf;
+	padding-left:5%;
+	padding-right:5%;
+	width: 90%;
+	overflow: visible;
+	margin: 0;
+}
+#contact a{
+	color:#f9eddf;
+	font-size:25px;
+	line-height: 50px;
+}
+#contact a:hover,#contact img:hover{
+	color:lightgray;
+	opacity:0.1;
+}
